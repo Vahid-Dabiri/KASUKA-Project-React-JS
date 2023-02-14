@@ -1,0 +1,15 @@
+.list-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-item span{
+    font-size: 45px;
+    color: #ffc451;
+}
+
+.list-text{
+    color: #444444;
+}

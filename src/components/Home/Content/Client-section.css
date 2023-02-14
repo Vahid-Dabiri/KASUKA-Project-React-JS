@@ -1,0 +1,54 @@
+#clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+#clients-logos{
+    overflow: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 20%;
+    align-items: center;
+    justify-content: center;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+}
+
+#clients img{
+    width: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: ease-in-out 0.5s;
+}
+#clients img:hover{
+    -webkit-filter: unset;
+    filter: unset;
+}
+
+.slick-track {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li button:before{
+    font-size: 15px !important;
+}
+
+.slick-dots li button:hover{
+    opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #ffc451 !important;
+}
+
+#clients h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

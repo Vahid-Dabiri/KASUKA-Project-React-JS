@@ -1,0 +1,44 @@
+.parallax-2{
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url('../../../../public/images/cta-bg.jpg');
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.parallax-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 100px 50px;
+    gap: 20px;
+}
+
+#parallax-2-title,
+#parallax-2-text,
+#parallax-2-btn{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#parallax-2-btn{
+    width: 230px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+#parallax-2-btn:hover{
+    border: 1px solid #ffc451;
+    background-color: #ffc451;
+    color: black;
+}

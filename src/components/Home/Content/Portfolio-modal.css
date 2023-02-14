@@ -1,0 +1,15 @@
+.img-modal-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.modal-infos{
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+}

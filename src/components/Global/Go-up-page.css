@@ -1,0 +1,21 @@
+#go-up-page-btn{
+    width: 40px;
+    height: 40px;
+    background-color: #ffc451;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 1s;
+    bottom: -100px;
+}
+
+.show-go-up-btn{
+    bottom: 20px !important;
+}
