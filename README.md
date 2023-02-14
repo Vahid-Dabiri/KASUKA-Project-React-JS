@@ -1,3 +1,5 @@
+This project is copied from another project and rewritten by React JS. To see the original project, visit http://rtlr.ir/200000. Thanks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
